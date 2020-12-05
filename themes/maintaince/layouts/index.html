@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+            {{ partial "img" .}}
+        
+                <h2>Comming Soon On This Site </h2>
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+                <br></br>
+                <a href="http://www.googel.com"><p> Explore Web</p></a>
+            {{- with .Site.Params.social }}
+                <div>
+                   
+                </div>
+            {{- end }}
+        </div>
+    </main>
+{{ end }}

@@ -1,3 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "This Is Mine"
+theme = "maintaince"
+image=  "Mine FB LOGO.jpg"
+[params]
+images = ["/Mine FB LOGO.jpg"]
